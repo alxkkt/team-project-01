@@ -1,0 +1,29 @@
+// UTILS
+
+@import './utils/variables';
+
+// BASE
+
+@import './base/common';
+@import './base/container';
+
+// COMPONENTS
+
+@import './components/button-reg';
+@import './components/contact-form';
+@import './components/menu';
+@import './components/hero-title';
+@import './components/program-items';
+@import './components/reg-form';
+@import './components/social-list';
+@import './components/subtitle';
+
+// LAYOUT
+
+@import './layout/about';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/program';
+@import './layout/registration';
+@import './layout/reviews';
