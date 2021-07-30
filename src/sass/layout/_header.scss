@@ -1,0 +1,138 @@
+@media screen and (max-width: 768px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(254, 243, 228, 1);
+
+    &__mob-menu-btn {
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      line-height: 0;
+    }
+    &__mob-menu-icon {
+      width: 30px;
+      height: 16px;
+      fill: rgba(46, 37, 32, 1);
+    }
+  }
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .link2 {
+    display: none;
+  }
+  .header__list {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(254, 243, 228, 1);
+  }
+  .header__nav {
+    display: flex;
+    align-items: center;
+  }
+  .header__list {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__list_item {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+  .header__logo_link {
+    margin-right: 38px;
+  }
+  .header__container {
+    display: flex;
+    align-items: center;
+  }
+  .header_logo_svg {
+    fill: rgba(46, 37, 32, 1);
+  }
+
+  .header__link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: rgba(46, 37, 32, 1);
+
+    &:hover,
+    &:focus {
+      color: rgba(135, 102, 85, 1);
+      fill: rgba(135, 102, 85, 1);
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .logo_head {
+    margin-right: 19px;
+  }
+  .header__logo_svg {
+    width: 160px;
+    height: 70px;
+  }
+
+  .header__list {
+    margin-left: 19px;
+  }
+  .header__mob-menu-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header__list {
+    display: none;
+  }
+  .header__mob-menu-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+    margin-left: auto;
+  }
+  .header__mob-menu-icon {
+    width: 30px;
+    height: 16px;
+    fill: rgba(46, 37, 32, 1);
+  }
+  .mob-menu__close-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+  }
+  .mob-menu__close-btn-icon {
+    width: 30px;
+    height: 16px;
+    fill: rgba(46, 37, 32, 1);
+  }
+  .header__logo_svg {
+    width: 95px;
+    height: 45px;
+  }
+  .mob-menu__item {
+    display: none;
+  }
+  .mob-menu__close-btn {
+    display: none;
+  }
+}
