@@ -1,0 +1,27 @@
+.hero-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.26;
+}
+
+// 0 - 767px
+.hero__section {
+  padding-top: 35px;
+  background-color: cornsilk;
+}
+
+.hero-title {
+  max-width: 225px;
+
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-title__description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+
+  margin-bottom: 38px;
+}
