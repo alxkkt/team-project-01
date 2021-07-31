@@ -1,15 +1,21 @@
 .button-reg {
   display: block;
   margin: 0 auto;
-  padding-left: 47px;
-  padding-right: 47px;
+  width: 145px;
 
   background-color: var(--accent-color);
   color: var(--white-color);
   font-size: 18px;
-  line-height: 2.1;
+  line-height: 2.3;
   text-align: center;
 
   border-style: none;
   border-radius: 25px;
+
+  @media screen and (min-width: 1280px) {
+    width: 158px;
+
+    font-size: 24px;
+    line-height: 1.85;
+  }
 }
