@@ -1,0 +1,28 @@
+.footer__contacts {
+  display: flex;
+  align-items: center;
+}
+.contacts__link {
+  color: var(--main-color);
+}
+.contacts__icon_tel {
+  width: 13px;
+  height: 13px;
+}
+.contacts__icon_loc {
+  width: 11px;
+  height: 15px;
+}
+.location {
+  margin-left: auto;
+}
+
+.contacts__link:hover,
+.contacts__link:focus,
+.contacts__icon_loc:hover,
+.contacts__icon_loc:focus,
+.contacts__icon_tel:hover,
+.contacts__icon_tel:focus {
+  fill: #876655;
+  color: #876655;
+}
