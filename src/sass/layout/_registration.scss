@@ -33,12 +33,11 @@
 
 .registration__title {
   text-align: center;
-  margin-top: 35px;
-  margin-bottom: 35px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .registration__input {
-  margin-bottom: 25px;
   padding: 2px;
   background-color: #fffff9;
   border-style: none;
@@ -47,37 +46,20 @@
   &::placeholder {
     color: rgba(171, 129, 108, 0.5);
   }
-
-  .registration__date {
-    margin-bottom: 25px;
-  }
-
-  .registration__sum {
-    padding-bottom: 20px;
-
-    border-bottom: 1px solid rgba(171, 129, 108, 0.5);
-  }
 }
 
-@media screen and (max-width: 669px) {
-  .registration__position {
-    position: relative;
-    min-width: 290px;
-    min-height: 510px;
+.registration__input:not(:last-child) {
+  margin-bottom: 25px;
+}
 
-    margin-left: auto;
-    margin-right: auto;
-  }
-
+@media screen and (max-width: 767px) {
   .registration__rectangle {
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #fffff9;
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
-    border-radius: 150px 0px 0px 150px;
-    transform: rotate(90deg);
+    border-radius: 150px 150px 0px 0px;
   }
 
   .registration__block {
@@ -86,54 +68,127 @@
     padding-right: 12px;
     width: 100%;
     height: 100%;
-    transform: rotate(-90deg);
   }
 
-  .registration__form {
+  .registration__form-input {
     display: flex;
     flex-direction: column;
-
     margin-bottom: 37px;
     padding-top: 11px;
   }
+  .registration__sum {
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid rgba(171, 129, 108, 0.5);
+  }
+
+  .registration__date {
+    margin-bottom: 25px;
+  }
+
+  .reg-button__block {
+    margin-bottom: 47px;
+  }
 }
 
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .registration__block {
     display: flex;
-    position: fixed;
-    width: 634px;
-    height: 260px;
     padding-top: 35px;
     padding-bottom: 35px;
+    padding-right: 21px;
     background-color: #fffff9;
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
     border-radius: 150px;
   }
 
-  .registration__position {
-    display: block;
+  .registration__rectangle {
     position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .registration__title {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .registration__form {
     display: flex;
-    flex-direction: column;
-    width: 292px;
-    height: 153px;
+    flex-direction: row;
   }
 
   .registration__right-side {
     display: flex;
+    flex-direction: row;
   }
 
   .registration__left-side {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
+    border-right: 1px solid rgba(171, 129, 108, 0.5);
   }
 
   .registration__date {
+    margin-right: 30px;
+    margin-top: 19px;
+    margin-bottom: 34px;
     max-width: 120px;
+    text-align: right;
+
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+
+    color: #2e2520;
+  }
+
+  .registration__sum {
+    margin-right: 30px;
+    text-align: right;
+  }
+
+  .registration__form-input {
+    display: flex;
+    flex-direction: column;
+    width: 292px;
+    margin-left: 30px;
+  }
+
+  .registration__name {
+    margin-top: 19px;
+    text-align: left;
+  }
+
+  .reg-button__block {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 25px;
+  }
+
+  .registration__input {
+    margin-bottom: 17px;
+  }
+
+  // .registration__block::before {
+  //   content: '';
+  //   position: absolute;
+  //   top: 50px;
+  //   left: -100px;
+  //   width: 235px;
+  //   height: 255px;
+  //   background-image: url(../images/body-images/registration-images/donutreg.png);
+  //   background-repeat: no-repeat;
+  // }
+
+  .registration {
+    background-image: url(../images/body-images/registration-images/donutreg.png);
+    background-repeat: no-repeat;
   }
 }
