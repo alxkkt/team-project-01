@@ -1,24 +1,26 @@
 <section class="registration section">
     <div class="container">
-        <div class="registration__position">
-            <div class="registration__rectangle">
-                <div class="registration__block">
-                    <h2 class="registration__title subtitle">Registration</h2>
-                    <div class="registration__left-side">
+        <div class="registration__rectangle">
+            <h2 class="registration__title subtitle">Registration</h2>
+            <div class="registration__block">
+                <div class="registration__left-side">
                     <p class="registration__text registration__date">May 23, 11:00
-                        New York</p>
+                            New York</p>
                     <p class="registration__text registration__sum">$ 699</p>
-                    </div>
-                    <div class="registration__right-side">
+                </div>
+                <div class="registration__right-side">
                     <form class="registration__form">
+                        <div class="registration__form-input">
                         <label for="name" class="registration__name">Apply your personal info
                             for registration</label>
                         <input type="text" name="user-name" id="name" class="registration__input" minlength="2" pattern="[a-zA-Z]+" required placeholder="Your name">
                         <input type="tel" name="user-tel" class="registration__input" pattern="^\+1\[0-9]{3}-[0-9]{3}-[0-9]{4}"  required placeholder="Phone number">
                         <input type="email" name="user-email" class="registration__input" required placeholder="Email">
-                        <button type="submit" class="button-reg">Register</button>
+                        </div>
+                        <div class="reg-button__block">
+                            <button type="submit" class="button-reg">Register</button>
+                        </div>
                     </form>
-                    </div>
                 </div>
             </div>
         </div>
