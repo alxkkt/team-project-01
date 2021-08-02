@@ -27,10 +27,6 @@
   color: #2e2520;
 }
 
-.registration {
-  background-color: #fef3e4;
-}
-
 .registration__title {
   text-align: center;
   padding-top: 35px;
@@ -41,6 +37,7 @@
   padding: 2px;
   background-color: #fffff9;
   border-style: none;
+  outline: none;
   border-bottom: 1px solid rgba(171, 129, 108, 0.5);
 
   &::placeholder {
@@ -50,6 +47,10 @@
 
 .registration__input:not(:last-child) {
   margin-bottom: 25px;
+}
+
+.registration__input:not(:placeholder-shown):invalid {
+  border-color: #f44336;
 }
 
 @media screen and (max-width: 767px) {
@@ -97,6 +98,7 @@
     padding-top: 35px;
     padding-bottom: 35px;
     padding-right: 21px;
+    padding-left: 35px;
     background-color: #fffff9;
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
     border-radius: 150px;
@@ -107,6 +109,7 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 4px;
   }
 
   .registration__title {
@@ -156,7 +159,7 @@
   .registration__form-input {
     display: flex;
     flex-direction: column;
-    width: 292px;
+    width: 234px;
     margin-left: 30px;
   }
 
@@ -176,19 +179,134 @@
     margin-bottom: 17px;
   }
 
-  // .registration__block::before {
-  //   content: '';
-  //   position: absolute;
-  //   top: 50px;
-  //   left: -100px;
-  //   width: 235px;
-  //   height: 255px;
-  //   background-image: url(../images/body-images/registration-images/donutreg.png);
-  //   background-repeat: no-repeat;
-  // }
-
   .registration {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .registration::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
     background-image: url(../images/body-images/registration-images/donutreg.png);
     background-repeat: no-repeat;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .registration__block {
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 98px;
+    padding-left: 107px;
+    background-color: #fffff9;
+    box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+    border-radius: 150px;
+  }
+
+  .registration__rectangle {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 4px;
+  }
+
+  .registration__title {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .registration__form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .registration__right-side {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .registration__left-side {
+    display: flex;
+    flex-direction: column;
+
+    border-right: 1px solid rgba(171, 129, 108, 0.5);
+  }
+
+  .registration__date {
+    margin-right: 30px;
+    margin-top: 19px;
+    margin-bottom: 34px;
+    max-width: 120px;
+    text-align: right;
+
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+
+    color: #2e2520;
+  }
+
+  .registration__sum {
+    margin-right: 30px;
+    text-align: right;
+  }
+
+  .registration__form-input {
+    display: flex;
+    flex-direction: column;
+    width: 234px;
+    margin-left: 30px;
+  }
+
+  .registration__name {
+    margin-top: 19px;
+    text-align: left;
+  }
+
+  .reg-button__block {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 25px;
+  }
+
+  .registration__input {
+    margin-bottom: 17px;
+  }
+
+  .registration {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .registration::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/body-images/registration-images/donutreg.png);
+    background-repeat: no-repeat;
+  }
+}
+
+// .registration {
+//   background-image: url(../images/body-images/registration-images/donutreg.png),
+//     url(../images/body-images/registration-images/confetti-tablet.png);
+//   background-repeat: no-repeat, no-repeat;
+//   background-position: top left, bottom right;
+// }
+
+// pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18"
+
+// ^[\+1\]-[0-9]{3}-[0-9]{3}-[0-9]{4}
