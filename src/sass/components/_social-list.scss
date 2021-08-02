@@ -1,0 +1,17 @@
+.social-list {
+  display: flex;
+  justify-content: center;
+
+  &__item:not(:last-child) {
+    margin-right: 9px;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: var(--accent-color);
+  }
+
+  &__icon {
+    fill: currentColor;
+  }
+}
