@@ -205,6 +205,7 @@
     &__container {
       display: flex;
       align-items: center;
+      justify-content: start;
     }
     &__nav {
       display: flex;
@@ -213,8 +214,10 @@
     &__logo_svg {
       width: 158px;
       height: 71px;
-      padding-top: 31px;
+    }
+    &__logo_link {
       margin-right: 38px;
+      padding-top: 31px;
     }
     &__list {
       font-weight: 400;
@@ -232,7 +235,7 @@
         color: rgba(135, 102, 85, 1);
       }
     }
-    &__list_item {
+    &__list_item:not(:first-child) {
       margin-left: 20px;
     }
   }
