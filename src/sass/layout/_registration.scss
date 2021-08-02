@@ -1,0 +1,139 @@
+.registration__subtitle {
+  display: block;
+  text-align: center;
+
+  margin-bottom: 36px;
+}
+
+.registration__text {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+
+  color: #2e2520;
+}
+
+.registration__name {
+  margin-bottom: 17px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #2e2520;
+}
+
+.registration {
+  background-color: #fef3e4;
+}
+
+.registration__title {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.registration__input {
+  margin-bottom: 25px;
+  padding: 2px;
+  background-color: #fffff9;
+  border-style: none;
+  border-bottom: 1px solid rgba(171, 129, 108, 0.5);
+
+  &::placeholder {
+    color: rgba(171, 129, 108, 0.5);
+  }
+
+  .registration__date {
+    margin-bottom: 25px;
+  }
+
+  .registration__sum {
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid rgba(171, 129, 108, 0.5);
+  }
+}
+
+@media screen and (max-width: 669px) {
+  .registration__position {
+    position: relative;
+    min-width: 290px;
+    min-height: 510px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .registration__rectangle {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fffff9;
+    box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+    border-radius: 150px 0px 0px 150px;
+    transform: rotate(90deg);
+  }
+
+  .registration__block {
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+  }
+
+  .registration__form {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 37px;
+    padding-top: 11px;
+  }
+}
+
+@media screen and (min-width: 670px) {
+  .registration__block {
+    display: flex;
+    position: fixed;
+    width: 634px;
+    height: 260px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #fffff9;
+    box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+    border-radius: 150px;
+  }
+
+  .registration__position {
+    display: block;
+    position: relative;
+  }
+
+  .registration__form {
+    display: flex;
+    flex-direction: column;
+    width: 292px;
+    height: 153px;
+  }
+
+  .registration__right-side {
+    display: flex;
+  }
+
+  .registration__left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .registration__date {
+    max-width: 120px;
+  }
+}
