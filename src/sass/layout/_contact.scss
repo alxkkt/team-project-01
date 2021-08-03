@@ -12,6 +12,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .contact {
+    margin-top: 45px;
+  }
+
   .contact__form {
     display: flex;
     flex-direction: column;
@@ -38,6 +42,8 @@
   .contact__btn {
     margin-top: 37px;
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .input-email {
@@ -81,6 +87,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .contact {
+    margin-top: 95px;
+  }
+
   .contact__form {
     display: flex;
     flex-direction: column;
@@ -97,6 +107,8 @@
     border-bottom: 1px solid rgba(171, 129, 108, 0.5);
 
     &::placeholder {
+      font-size: 16px;
+      line-height: 1.25;
       color: rgba(171, 129, 108, 0.5);
     }
 
@@ -112,5 +124,10 @@
 
   .input-email {
     margin-bottom: 15px;
+  }
+
+  .contact__answer {
+    font-size: 18px;
+    line-height: 3.61;
   }
 }
