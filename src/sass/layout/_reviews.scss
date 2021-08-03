@@ -1,5 +1,10 @@
 .reviews-section {
     padding-top: 30px;
+    padding-bottom: 30px;
+    @media screen and (max-width: 767px) {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
 }
 .reviews-title {
     text-align: center;
@@ -9,7 +14,7 @@
 
 .carousel {
     height: 266px;
-    @media screen and (max-width: 767.98px) {
+    @media screen and (max-width: 767px) {
         height: 200px;
     }
 }
@@ -26,15 +31,23 @@
     font-weight: 500;
     font-size: 16px;
     padding: 16px 0;
-    text-align: center; 
-    color: var(--primary-text-color);
+    text-align: center;
 }
 
 .reviews__item__text {
     margin-bottom: 0;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.22;
     text-align: center;
-    color: var(--primary-text-color);
+    color: #2E2520;
     display: none;
+    font-style: normal;
+    @media screen and (max-width: 767px) {
+        font-size: 18px;
+        line-height: 1.25;
+    }
 }
 
 .reviews__item__text--active {
@@ -47,8 +60,14 @@
 }
 
 .reviews {
+    margin: auto;
+    max-width: 600px;
+
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
+    @media screen and (max-width: 767px) {
+       width: 290px;
+    }
 }
 
 .reviews--animation {
@@ -134,4 +153,5 @@
     border-radius: 50%;
     border: 1px solid #cccccc;
     box-shadow: 0 0 10px 0 #cccccc;
+    background-image:
 }
