@@ -11,6 +11,13 @@
   border-style: none;
   border-radius: 25px;
 
+  cursor: pointer;
+
+  &:focus,
+  &:hover {
+    background-color: rgba(135, 102, 85, 1);
+  }
+
   @media screen and (min-width: 1280px) {
     width: 158px;
 
