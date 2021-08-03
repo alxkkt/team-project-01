@@ -18,6 +18,12 @@
     background-color: rgba(135, 102, 85, 1);
   }
 
+  &__link {
+    color: var(--white-color);
+
+    padding: 7px 45px;
+  }
+
   @media screen and (min-width: 1280px) {
     width: 158px;
 
