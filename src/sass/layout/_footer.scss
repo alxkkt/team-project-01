@@ -2,6 +2,35 @@
   padding-bottom: 20px;
 }
 .social__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 35px;
+  padding-top: 35px;
+
+  &_item:not(:first-child) {
+    margin-left: 12px;
+  }
+  &_link {
+    fill: var(--main-color);
+    &:hover,
+    &:focus {
+      fill: rgba(135, 102, 85, 1);
+    }
+  }
+
+  &_twitter {
+    width: 24px;
+    height: 19px;
+  }
+  &_insta {
+    width: 19px;
+    height: 19px;
+  }
+  &_facebook {
+    width: 11px;
+    height: 19px;
+  }
 }
 .footer__contacts {
   display: flex;
