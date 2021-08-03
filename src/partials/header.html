@@ -1,14 +1,14 @@
 <header class="header">
     <div class="header__container container">
-        <a href="#" class="header__logo_link link2 link">
+        <a href="#" class="header__logo_link link">
             <svg class="header__logo_svg">
                 <use href="./images/icons.svg#icon-logo"></use>
             </svg>
         </a>
-        <div class="mobile-menu" data-menu>
+        <div class="header__mobile-menu" data-menu>
             <nav class="header__nav">
-                <a href="#" class="header__logo_link link2 link">
-                    <svg class="header__logo_svg">
+                <a href="#" class="header__logo_link link">
+                    <svg class="header__logo_svg2">
                         <use href="./images/icons.svg#icon-logo"></use>
                     </svg>
                 </a>
@@ -27,12 +27,17 @@
                     </li>
                 </ul>
             </nav>
-            <button type="button" class="header__mob-menu-btn" data-menu-button>
+            <!-- <button type="button" class="header__mob-menu-btn" data-menu-button>
                 <svg class="header__mob-menu-icon">
                     <use href="./images/icons.svg#icon-menu"></use>
                 </svg>
+            </button> -->
+            <button class="header__mob-menu-btn hamburger hamburger--spin" type="button" data-menu-button>
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
             </button>
-        </div>
+            </div>
         <!-- <div class="mob-menu" data-menu>
             <div class="mob-menu__container container">
                 <button class="mob-menu__close-btn" data-menu-close>
