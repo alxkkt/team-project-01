@@ -1,0 +1,116 @@
+.contact__answer {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 4.06;
+  text-align: center;
+
+  color: #2e2520;
+}
+
+.contact__title {
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 265px;
+  }
+
+  .contact__input {
+    padding: 2px;
+    border-style: none;
+    outline: none;
+    border-bottom: 1px solid rgba(171, 129, 108, 0.5);
+
+    &::placeholder {
+      color: rgba(171, 129, 108, 0.5);
+    }
+
+    &:not(::placeholder-shown):invalid {
+      border-color: #f44336;
+    }
+  }
+
+  .contact__btn {
+    margin-top: 37px;
+    margin-bottom: 24px;
+  }
+
+  .input-email {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 410px;
+  }
+
+  .contact__input {
+    width: 410px;
+    padding: 2px;
+    border-style: none;
+    outline: none;
+    border-bottom: 1px solid rgba(171, 129, 108, 0.5);
+
+    &::placeholder {
+      color: rgba(171, 129, 108, 0.5);
+    }
+
+    &:not(::placeholder-shown):invalid {
+      border-color: #f44336;
+    }
+  }
+
+  .contact__btn {
+    margin-top: 27px;
+    margin-bottom: 24px;
+  }
+
+  .input-email {
+    margin-bottom: 27px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 430px;
+  }
+
+  .contact__input {
+    width: 430px;
+    padding: 2px;
+    border-style: none;
+    outline: none;
+    border-bottom: 1px solid rgba(171, 129, 108, 0.5);
+
+    &::placeholder {
+      color: rgba(171, 129, 108, 0.5);
+    }
+
+    &:not(::placeholder-shown):invalid {
+      border-color: #f44336;
+    }
+  }
+
+  .contact__btn {
+    margin-top: 27px;
+    margin-bottom: 24px;
+  }
+
+  .input-email {
+    margin-bottom: 15px;
+  }
+}
