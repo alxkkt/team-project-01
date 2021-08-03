@@ -55,6 +55,7 @@
 
 @media screen and (max-width: 767px) {
   .registration__rectangle {
+    max-width: 290px;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -93,7 +94,13 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .registration {
+    padding-bottom: 62px;
+    overflow: hidden;
+  }
+
   .registration__block {
+    position: relative;
     display: flex;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -102,6 +109,7 @@
     background-color: #fffff9;
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
     border-radius: 150px;
+    // background-image: url(../images/body-images/registration-images/donutreg.png);
   }
 
   .registration__rectangle {
@@ -179,25 +187,68 @@
     margin-bottom: 17px;
   }
 
-  .registration {
-    position: relative;
-    overflow: hidden;
-  }
-
-  .registration::before {
+  .registration__block::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
+    z-index: -1;
+    top: -60px;
+    left: -53px;
+    width: 235px;
+    height: 255px;
     background-image: url(../images/body-images/registration-images/donutreg.png);
     background-repeat: no-repeat;
+  }
+
+  .registration__block::after {
+    content: '';
+    position: absolute;
+    bottom: -66px;
+    right: -66px;
+    z-index: -1;
+    width: 280px;
+    height: 300px;
+    background-image: url(../images/body-images/registration-images/confetti-tablet.png);
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1279px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1279px) {
+  .registration__block::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -60px;
+    left: -53px;
+    width: 235px;
+    height: 255px;
+    background-image: url(../images/body-images/registration-images/donutreg2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1279px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1279px) {
+  .registration__block::after {
+    content: '';
+    position: absolute;
+    bottom: -66px;
+    right: -66px;
+    z-index: -1;
+    width: 280px;
+    height: 300px;
+    background-image: url(../images/body-images/registration-images/confetti-tablet2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .registration__block {
+    position: relative;
     display: flex;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -208,6 +259,30 @@
     border-radius: 150px;
   }
 
+  .registration__block::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -63px;
+    left: -133px;
+    width: 235px;
+    height: 255px;
+    background-image: url(../images/body-images/registration-images/donutreg.png);
+    background-repeat: no-repeat;
+  }
+
+  .registration__block::after {
+    content: '';
+    position: absolute;
+    bottom: -270px;
+    right: -240px;
+    z-index: -1;
+    width: 605px;
+    height: 589px;
+    background-image: url(../images/body-images/registration-images/confetti-desktop.png);
+    background-repeat: no-repeat;
+  }
+
   .registration__rectangle {
     position: relative;
     display: block;
@@ -244,19 +319,22 @@
     margin-right: 30px;
     margin-top: 19px;
     margin-bottom: 34px;
-    max-width: 120px;
+    max-width: 130px;
     text-align: right;
 
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 1.22;
+    font-size: 20px;
+    line-height: 1.2;
 
     color: #2e2520;
   }
 
   .registration__sum {
     margin-right: 30px;
+
+    font-size: 20px;
+    line-height: 1.2;
     text-align: right;
   }
 
@@ -269,6 +347,9 @@
 
   .registration__name {
     margin-top: 19px;
+
+    font-size: 18px;
+    line-height: 1.22;
     text-align: left;
   }
 
@@ -282,24 +363,41 @@
   .registration__input {
     margin-bottom: 17px;
   }
+}
 
-  .registration {
-    position: relative;
-    overflow: hidden;
-  }
-
-  .registration::before {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
+  screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px) {
+  .registration__block::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background-image: url(../images/body-images/registration-images/donutreg.png);
+    z-index: -1;
+    top: -63px;
+    left: -133px;
+    width: 235px;
+    height: 255px;
+    background-image: url(../images/body-images/registration-images/donutreg2x.png);
     background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
+  screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px) {
+  .registration__block::after {
+    content: '';
+    position: absolute;
+    bottom: -270px;
+    right: -240px;
+    z-index: -1;
+    width: 605px;
+    height: 589px;
+    background-image: url(../images/body-images/registration-images/confetti-desktop2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 // .registration {
 //   background-image: url(../images/body-images/registration-images/donutreg.png),
 //     url(../images/body-images/registration-images/confetti-tablet.png);
