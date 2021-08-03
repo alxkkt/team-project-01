@@ -120,7 +120,6 @@
     background-color: #fffff9;
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
     border-radius: 150px;
-    // background-image: url(../images/body-images/registration-images/donutreg.png);
   }
 
   .registration__rectangle {
@@ -220,6 +219,11 @@
     height: 300px;
     background-image: url(../images/body-images/registration-images/confetti-tablet.png);
     background-repeat: no-repeat;
+  }
+
+  .reistration__button {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -378,6 +382,11 @@
   .registration__input {
     margin-bottom: 17px;
   }
+
+  .reistration__button {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
@@ -413,12 +422,6 @@
     background-size: cover;
   }
 }
-// .registration {
-//   background-image: url(../images/body-images/registration-images/donutreg.png),
-//     url(../images/body-images/registration-images/confetti-tablet.png);
-//   background-repeat: no-repeat, no-repeat;
-//   background-position: top left, bottom right;
-// }
 
 // pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18"
 
