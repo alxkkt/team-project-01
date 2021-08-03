@@ -54,6 +54,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .registration {
+    margin-top: 30px;
+  }
+
   .registration__rectangle {
     max-width: 290px;
     display: block;
@@ -91,10 +95,17 @@
   .reg-button__block {
     margin-bottom: 47px;
   }
+
+  .reistration__button {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .registration {
+    margin-top: 60px;
+
     padding-bottom: 62px;
     overflow: hidden;
   }
@@ -247,6 +258,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .registration {
+    margin-top: 80px;
+  }
+
   .registration__block {
     position: relative;
     display: flex;
