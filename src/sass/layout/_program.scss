@@ -49,7 +49,7 @@
       flex-wrap: wrap;
       align-items: flex-end;
       margin: 0 auto;
-      max-width: 290px;
+      max-width: 300px;
     }
     &__second-item {
       background-image: url(../images/about-program/bg.png);
@@ -65,19 +65,21 @@
       margin-bottom: 30px;
       margin-right: 6px;
     }
-    &__img {
-      min-width: 65px;
-      min-height: 67px;
+    &__img-chef {
+      width: 65px;
+      height: 67px;
       object-fit: cover;
       object-position: 50% 50%;
+      margin-bottom: 8.62px;
     }
-    &__second-title {
+    &__second-title-chef {
       font-size: 18px;
       line-height: 23px;
       text-align: center;
-      margin-bottom: 12px;
+      margin-bottom: 12.62px;
     }
-    &__second-paragraph {
+    &__second-paragraph-chef {
+      margin-bottom: 13.41px;
       font-size: 14px;
       line-height: 17px;
       text-align: center;
@@ -85,7 +87,75 @@
     &__icon-chef {
       width: 19.42px;
       height: 18.01px;
-      margin-top: 13.41px;
+    }
+    &__img-people {
+      width: 64px;
+      height: 67px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      margin-bottom: 5.69px;
+    }
+    &__second-title-people {
+      font-size: 18px;
+      line-height: 23px;
+      text-align: center;
+      margin-bottom: 12.98px;
+    }
+    &__second-paragraph-people {
+      margin-bottom: 13.43px;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+    }
+    &__icon-people {
+      width: 20.32px;
+      height: 18.26px;
+    }
+    &__img-clock {
+      width: 69px;
+      height: 71px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      margin-bottom: 8.73px;
+    }
+    &__second-title-clock {
+      font-size: 18px;
+      line-height: 23px;
+      text-align: center;
+      margin-bottom: 13.08px;
+    }
+    &__second-paragraph-clock {
+      margin-bottom: 12.16px;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+    }
+    &__icon-clock {
+      width: 19.72px;
+      height: 19.72px;
+    }
+    &__img-chat {
+      width: 64px;
+      height: 72px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      margin-bottom: 5.31px;
+    }
+    &__second-title-chat {
+      font-size: 18px;
+      line-height: 23px;
+      text-align: center;
+      margin-bottom: 13.02px;
+    }
+    &__second-paragraph-chat {
+      margin-bottom: 15.37px;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+    }
+    &__icon-chat {
+      width: 24.83px;
+      height: 16.8px;
     }
   }
   .program__hide {
@@ -178,19 +248,21 @@
       margin-bottom: 30px;
       margin-right: 6px;
     }
-    &__img {
-      min-width: 65px;
-      min-height: 67px;
+    &__img-chef {
+      width: 65px;
+      height: 67px;
       object-fit: cover;
       object-position: 50% 50%;
+      margin-bottom: 8.62px;
     }
-    &__second-title {
+    &__second-title-chef {
       font-size: 18px;
       line-height: 23px;
       text-align: center;
-      margin-bottom: 12px;
+      margin-bottom: 12.62px;
     }
-    &__second-paragraph {
+    &__second-paragraph-chef {
+      margin-bottom: 13.41px;
       font-size: 14px;
       line-height: 17px;
       text-align: center;
@@ -198,7 +270,75 @@
     &__icon-chef {
       width: 19.42px;
       height: 18.01px;
-      margin-top: 13.41px;
+    }
+    &__img-people {
+      width: 64px;
+      height: 67px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      margin-bottom: 5.69px;
+    }
+    &__second-title-people {
+      font-size: 18px;
+      line-height: 23px;
+      text-align: center;
+      margin-bottom: 12.98px;
+    }
+    &__second-paragraph-people {
+      margin-bottom: 13.43px;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+    }
+    &__icon-people {
+      width: 20.32px;
+      height: 18.26px;
+    }
+    &__img-clock {
+      width: 69px;
+      height: 71px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      margin-bottom: 8.73px;
+    }
+    &__second-title-clock {
+      font-size: 18px;
+      line-height: 23px;
+      text-align: center;
+      margin-bottom: 13.08px;
+    }
+    &__second-paragraph-clock {
+      margin-bottom: 12.16px;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+    }
+    &__icon-clock {
+      width: 19.72px;
+      height: 19.72px;
+    }
+    &__img-chat {
+      width: 64px;
+      height: 72px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      margin-bottom: 5.31px;
+    }
+    &__second-title-chat {
+      font-size: 18px;
+      line-height: 23px;
+      text-align: center;
+      margin-bottom: 13.02px;
+    }
+    &__second-paragraph-chat {
+      margin-bottom: 15.37px;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+    }
+    &__icon-chat {
+      width: 24.83px;
+      height: 16.8px;
     }
   }
   .program__hide {
@@ -262,6 +402,7 @@
       background-image: url(../images/about-program/bg.png);
       background-repeat: no-repeat;
       background-position: 50% 100%;
+      background-size: 180px 180px;
       width: 180px;
       height: 223px;
       display: flex;
@@ -272,27 +413,97 @@
       margin-bottom: 32px;
       margin-right: 21px;
     }
-    &__img {
-      min-width: 65px;
-      min-height: 67px;
+    &__img-chef {
+      width: 84px;
+      height: 85px;
       object-fit: cover;
       object-position: 50% 50%;
+      margin-bottom: 11px;
     }
-    &__second-title {
-      font-size: 18px;
-      line-height: 23px;
+    &__second-title-chef {
+      font-size: 24px;
+      line-height: 1.25;
       text-align: center;
-      margin-bottom: 12px;
+      margin-bottom: 16px;
     }
-    &__second-paragraph {
-      font-size: 14px;
-      line-height: 17px;
+    &__second-paragraph-chef {
+      margin-bottom: 17px;
+      font-size: 16px;
+      line-height: 1.25;
       text-align: center;
     }
     &__icon-chef {
-      width: 19.42px;
-      height: 18.01px;
-      margin-top: 13.41px;
+      width: 24.62px;
+      height: 22.82px;
+    }
+    &__img-people {
+      width: 83px;
+      height: 87px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      margin-bottom: 9px;
+    }
+    &__second-title-people {
+      font-size: 24px;
+      line-height: 1.25;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    &__second-paragraph-people {
+      margin-bottom: 17px;
+      font-size: 16px;
+      line-height: 1.25;
+      text-align: center;
+    }
+    &__icon-people {
+      width: 26px;
+      height: 23.26px;
+    }
+    &__img-clock {
+      width: 87px;
+      height: 90px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      margin-bottom: 9px;
+    }
+    &__second-title-clock {
+      font-size: 24px;
+      line-height: 1.25;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    &__second-paragraph-clock {
+      margin-bottom: 15px;
+      font-size: 16px;
+      line-height: 1.25;
+      text-align: center;
+    }
+    &__icon-clock {
+      width: 25px;
+      height: 25px;
+    }
+    &__img-chat {
+      width: 82px;
+      height: 91px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      margin-bottom: 7px;
+    }
+    &__second-title-chat {
+      font-size: 24px;
+      line-height: 1.25;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    &__second-paragraph-chat {
+      margin-bottom: 19px;
+      font-size: 16px;
+      line-height: 1.25;
+      text-align: center;
+    }
+    &__icon-chat {
+      width: 31.48px;
+      height: 21.3px;
     }
   }
 }
