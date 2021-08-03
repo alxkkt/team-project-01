@@ -1,4 +1,20 @@
 // 0 - 767
-.hero__section {
-  padding-top: 35px;
+@media screen and (max-width: 767px) {
+  .hero__section {
+    padding-top: 35px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__section {
+    padding-top: 81px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero__section {
+    background-image: url(../images/body-images/bg-desktop-add.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
 }
