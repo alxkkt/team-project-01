@@ -1,53 +1,38 @@
 <header class="header">
     <div class="header__container container">
-        <nav class="header__nav">
-            <a href="#" class="header__logo_link link2 link">
+        <a href="#" class="header__logo_link link">
             <svg class="header__logo_svg">
                 <use href="./images/icons.svg#icon-logo"></use>
-                </svg>
+            </svg>
+        </a>
+        <div class="header__mobile-menu" data-menu>
+            <nav class="header__nav">
+                <a href="#" class="header__logo_link link">
+                    <svg class="header__logo_svg2">
+                        <use href="./images/icons.svg#icon-logo"></use>
+                    </svg>
                 </a>
                 <ul class="header__list list">
-                <li class="header__list_item">
-                    <a class="header__link link" href="#">About us</a>
-                </li>
-                <li class="header__list_item">
-                    <a class="header__link link" href="#">Program</a>
-                </li>
-                <li class="header__list_item">
-                    <a class="header__link link" href="#">Reviews</a>
-                </li>
-                <li class="header__list_item">
-                    <a class="header__link link" href="#">Contacts</a>
-                </li>
+                    <li class="header__list_item">
+                        <a class="header__link link" href="#about">About us</a>
+                    </li>
+                    <li class="header__list_item">
+                        <a class="header__link link" href="#program">Program</a>
+                    </li>
+                    <li class="header__list_item">
+                        <a class="header__link link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="header__list_item">
+                        <a class="header__link link" href="#contacts">Contacts</a>
+                    </li>
                 </ul>
-        </nav>
-        <button type="button" class="header__mob-menu-btn" data-menu-button>
-            <svg class="header__mob-menu-icon">
-                <use href="./images/icons.svg#icon-menu"></use>
-            </svg>
-        </button>
-        <div class="mob-menu" data-menu>
-            <div class="mob-menu__container container">
-                <button class="mob-menu__close-btn" data-menu-close>
-                    <svg class="mob-menu__close-btn-icon">
-                        <use href="./images/icons.svg#icon-close"></use>
-                    </svg>
-                </button>
-                        <ul class="mob-menu__nav list">
-                            <li><a href="#" class="mob-menu__logo_link1 link">
-                                    <svg class="mob-menu__logo_svg">
-                                        <use href="./images/icons.svg#icon-logo"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="mob-menu__item"><a href="#" class="mob-menu__link link current">About us</a>
-                            </li>
-                            <li class="mob-menu__item"><a href="#" class="mob-menu__link link">Program</a></li>
-                            <li class="mob-menu__item"><a href="#" class="mob-menu__link link">Reviews</a></li>
-                            <li class="mob-menu__item"><a href="#" class="mob-menu__link link">Contacts</a></li>
-                        </ul>
+            </nav>
+            <button class="header__mob-menu-btn hamburger hamburger--spin" type="button" data-menu-button>
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
             </div>
-        </div>
     </div>
     <script src="./js/menu.js"></script>
 </header>
