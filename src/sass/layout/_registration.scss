@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 767px) {
   .registration {
-    margin-top: 30px;
+    padding-top: 30px;
   }
 
   .registration__rectangle {
@@ -103,8 +103,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .registration {
-    margin-top: 60px;
-
+    padding-top: 60px;
     padding-bottom: 62px;
     overflow: hidden;
   }
@@ -261,7 +260,7 @@
 
 @media screen and (min-width: 1280px) {
   .registration {
-    margin-top: 64px;
+    padding-top: 64px;
   }
 
   .registration__block {
