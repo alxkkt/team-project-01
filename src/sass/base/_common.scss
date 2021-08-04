@@ -4,41 +4,50 @@ body {
 
   // 0 - 767
   @media screen and (max-width: 767px) {
-    background-image: url(../images/body-images/bg-body-mobile-top.png);
-    background-repeat: no-repeat;
-    background-size: 100% 461px;
+    background-image: url(../images/body-images/bg-body-mobile-top.png),
+      url(../images/body-images/bg-mobile-review.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 461px, 100% 1330px;
+    background-position: top, 0 88%;
   }
 
   @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
     (min-resolution: 192dpi) and (max-width: 767px),
     (min-resolution: 2dppx) and (max-width: 767px) {
-    background-image: url(../images/body-images/bg-body-mobile-top@2x.png);
+    background-image: url(../images/body-images/bg-body-mobile-top@2x.png),
+      url(../images/body-images/bg-mobile-review@2x.png);
   }
 
   // 768 - 1280
   @media screen and (min-width: 768px) {
-    background-image: url(../images/body-images/bg-body-tablet-top.png);
-    background-repeat: no-repeat;
-    background-size: 100% 622px;
+    background-image: url(../images/body-images/bg-body-tablet-top.png),
+      url(../images/body-images/bg-tablet-review.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 622px, 100% 1400px;
+    background-position: top, 0 94%;
   }
 
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
     (min-resolution: 192dpi) and (min-width: 768px),
     (min-resolution: 2dppx) and (min-width: 768px) {
-    background-image: url(../images/body-images/bg-body-tablet-top@2x.png);
+    background-image: url(../images/body-images/bg-body-tablet-top@2x.png),
+      url(../images/body-images/bg-tablet-review@2x.png);
   }
 
   // 1280+
   @media screen and (min-width: 1280px) {
-    background-image: url(../images/body-images/bg-body-desktop-top.png);
-    background-repeat: no-repeat;
-    background-size: 100% 1036px;
+    background-image: url(../images/body-images/bg-body-desktop-top.png),
+      url(../images/body-images/bg-desktop-review.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 1036px, 100% 1600px;
+    background-position: top, 0 70%;
   }
 
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
     (min-resolution: 192dpi) and (min-width: 1280px),
     (min-resolution: 2dppx) and (min-width: 1280px) {
-    background-image: url(../images/body-images/bg-body-desktop-top@2x.png);
+    background-image: url(../images/body-images/bg-body-desktop-top@2x.png),
+      url(../images/body-images/bg-desktop-review@2x.png);
   }
 }
 

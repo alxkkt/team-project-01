@@ -1,267 +1,258 @@
 .reviews-section {
-    padding-top: 45px;
-    @media screen and (max-width: 767px) {
-        padding-top: 35px;
-    }
-    @media screen and (min-width: 1280px) {
-        padding-top: 60px;
-    }
+  padding-top: 45px;
+  @media screen and (max-width: 767px) {
+    padding-top: 35px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 60px;
+  }
 }
 .reviews-title {
-    text-align: center;
-    margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 10px;
 
- @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     text-align: center;
     font-style: normal;
-    font-weight: normal;    
+    font-weight: normal;
     margin-bottom: 5px;
-    font-size: 24px; 
+    font-size: 24px;
     line-height: 2.7;
- }
- @media screen and (min-width: 1280px) {
+  }
+  @media screen and (min-width: 1280px) {
     text-align: center;
     font-style: normal;
-    font-weight: normal;    
+    font-weight: normal;
     margin-bottom: 5px;
-    font-size: 36px; 
+    font-size: 36px;
     line-height: 1.8;
- }
+  }
 }
 
 .carousel {
-    height: 266px;
-    @media screen and (max-width: 767px) {
-        height: 200px;
-    }
+  height: 266px;
+  @media screen and (max-width: 767px) {
+    height: 200px;
+  }
 }
 
 .reviews-card-image {
-    border-radius: 50%;
-    width: 110px;
-    cursor: pointer;
+  border-radius: 50%;
+  width: 110px;
+  cursor: pointer;
 }
 
 .card-item-title {
-    @media screen and (min-width: 1280px) {
-        font-family: Montserrat;
+  @media screen and (min-width: 1280px) {
+    font-family: Montserrat;
     font-style: italic;
     font-weight: 500;
     font-size: 16px;
     line-height: 65px;
     text-align: center;
     margin: 0;
-    }
+  }
 
-    @media screen and (min-width: 768px) {
-        font-family: Montserrat;
-        font-style: italic;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 65px;
-        margin: 0;
-        text-align: center;
-    }
+  @media screen and (min-width: 768px) {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 65px;
+    margin: 0;
+    text-align: center;
+  }
 
-    @media screen and (max-width: 767px) {
-        font-family: Montserrat;
-        color: #2E2520;
-        font-style: italic;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 65px;
-        text-align: center;
-    }
-
-
+  @media screen and (max-width: 767px) {
+    font-family: Montserrat;
+    color: #2e2520;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 65px;
+    text-align: center;
+  }
 }
 
 .reviews__item__text {
-    margin-top: 30px;
-    margin-bottom: 0;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  color: #2e2520;
+  display: none;
+  font-style: normal;
+  @media screen and (max-width: 767px) {
     font-family: Montserrat;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 1.22;
-    text-align: center;
-    color: #2E2520;
-    display: none;
     font-style: normal;
-    @media screen and (max-width: 767px) {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        text-align: center;
-        font-size: 18px;
-        line-height: 1.25;
-    }
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.25;
+  }
 }
 
 .reviews__item__text--active {
-    display: block;
+  display: block;
 }
 
 .reviews__list {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .reviews {
-    margin: auto;
-    max-width: 600px;
+  margin: auto;
+  max-width: 600px;
 
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out;
-    @media screen and (max-width: 767px) {
-       width: 290px;
-    }
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  @media screen and (max-width: 767px) {
+    width: 290px;
+  }
 }
 
 .reviews--animation {
-    opacity: 0;
+  opacity: 0;
 }
 
 .slick-slider {
-    width: 185px;
-    margin: 0 auto;
+  width: 185px;
+  margin: 0 auto;
 
-    @media screen and (min-width: 768px) {
-        width: 626px;
-    }
+  @media screen and (min-width: 768px) {
+    width: 626px;
+  }
 }
 
 .slick-slide img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .slick-slide,
-.slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
-    .reviews-card-image {
-        width: 110px;
-        transition: all .22s linear;
-    }
+.slick-slide[aria-hidden='true']:not(.slick-cloned) ~ .slick-cloned[aria-hidden='true'] {
+  .reviews-card-image {
+    width: 110px;
+    transition: all 0.22s linear;
+  }
 }
 
 .slick-center,
-.slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"] {
-    .reviews-card-image {
-        @media screen and (min-width: 768px) {
-            width: 185px;
-            margin-top: 15px;
-        }
-
+.slick-slide[aria-hidden='true']:not([tabindex='-1']) + .slick-cloned[aria-hidden='true'] {
+  .reviews-card-image {
+    @media screen and (min-width: 768px) {
+      width: 185px;
+      margin-top: 15px;
     }
+  }
 }
 
-.reviews__pagination-wrap{
-    margin-top: 35px;
+.reviews__pagination-wrap {
+  margin-top: 35px;
 }
-.reviews-pagination{
-    margin-bottom: 0;
-    text-align: center;
-    position: relative;
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--accent-color);
-    @media screen and (min-width: 1280px) {
-        font-size: 16px;
-    }
+.reviews-pagination {
+  margin-bottom: 0;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent-color);
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+  }
 }
-.reviews-pagination::after{
-
-    @media screen and (min-width: 1280px){
-        display: block;                  
-        width:100px;                    
-        content: '';                      
-        position: absolute;              
-        border-bottom: 1px solid var(--accent-color);   
-        top:50%;                         
-        right: 290px;  
-    } 
-    @media screen and (max-width: 1279px) {
-        display: block;                  
-        width:100px;                    
-        content: '';                      
-        position: absolute;              
-        border-bottom: 1px solid var(--accent-color);   
-        top:50%;                         
-        right: 190px; 
-    }
-    @media screen and (max-width: 767px) {
-        display: none;
-    }
- }
-
-.reviews-pagination::before{
-
-    @media screen and (min-width: 1280px) {
-        display: block;                  
-        width:100px;                    
-        content: '';                      
-        position: absolute;              
-        border-bottom: 1px solid var(--accent-color);   
-        top:50%;                         
-        left: 290px; 
-    }
-    @media screen and (max-width: 1279px) {
-        display: block;                  
-        width:100px;                    
-        content: '';                      
-        position: absolute;              
-        border-bottom: 1px solid var(--accent-color);   
-        top:50%;                         
-        left: 190px; 
-    }
-    @media screen and (max-width: 767px) {
-        display: none;
-    }
-  
+.reviews-pagination::after {
+  @media screen and (min-width: 1280px) {
+    display: block;
+    width: 100px;
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid var(--accent-color);
+    top: 50%;
+    right: 290px;
+  }
+  @media screen and (max-width: 1279px) {
+    display: block;
+    width: 100px;
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid var(--accent-color);
+    top: 50%;
+    right: 190px;
+  }
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
-
+.reviews-pagination::before {
+  @media screen and (min-width: 1280px) {
+    display: block;
+    width: 100px;
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid var(--accent-color);
+    top: 50%;
+    left: 290px;
+  }
+  @media screen and (max-width: 1279px) {
+    display: block;
+    width: 100px;
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid var(--accent-color);
+    top: 50%;
+    left: 190px;
+  }
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
 
 .slick-prev {
-    background: url(../images/reviews/arrows/prev.svg);
-    display: block;
-    width: 30px;
-    height: 30px;
-    background-size: 30px 30px;
-    left: -50px;
-    top: 120px;
+  background: url(../images/reviews/arrows/prev.svg);
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  left: -50px;
+  top: 120px;
 }
 .slick-next {
-    background: url(../images/reviews/arrows/next.svg);
-    display: block;
-    width: 30px;
-    height: 30px;
-    background-size: 30px 30px;
-    right: -50px;
-    top: 120px;
+  background: url(../images/reviews/arrows/next.svg);
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  right: -50px;
+  top: 120px;
 }
 
-.slick-next:before, .slick-prev:before {
-
-    color: var(--accent-color);
-
+.slick-next:before,
+.slick-prev:before {
+  color: var(--accent-color);
 }
 .slick-prev:before {
-    content: "";
-    background: url(../images/reviews/arrows/prev.svg);
-    display: block;
-    width: 30px;
-    height: 30px;
-    background-size: 30px 30px;
-    left: -50px;
-    top: 120px;
+  content: '';
+  background: url(../images/reviews/arrows/prev.svg);
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  left: -50px;
+  top: 120px;
 }
 .slick-next:before {
-    content: "";
-    background: url(../images/reviews/arrows/next.svg);
-    display: block;
-    width: 30px;
-    height: 30px;
-    background-size: 30px 30px;
-    left: -50px;
-    top: 120px;
+  content: '';
+  background: url(../images/reviews/arrows/next.svg);
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  left: -50px;
+  top: 120px;
 }
