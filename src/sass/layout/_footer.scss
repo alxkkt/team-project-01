@@ -3,86 +3,86 @@
     padding-bottom: 34px;
     padding-top: 37px;
   }
-  .footer_img::after {
-    content: '';
-    position: absolute;
-    width: 87px;
-    height: 64px;
-    bottom: -20px;
-    right: 0;
-    background-image: url('.././images/body-images/bg-mobile-footer.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-  }
-  .footer_img {
-    position: relative;
-  }
-}
-@media (min-device-pixel-ratio: 2) and (min-width: 320px),
-  (min-resolution: 192dpi) and (min-width: 320px),
-  (min-resolution: 2dppx) and (min-width: 320px) {
-  .footer_img::after {
-    background-image: url('.././images/body-images/bg-mobile-footer@2x.png');
-  }
-}
+  // .footer_img::after {
+  //   content: '';
+  //   position: absolute;
+  //   width: 87px;
+  //   height: 64px;
+  //   bottom: -20px;
+  //   right: 0;
+  //   background-image: url('.././images/body-images/bg-mobile-footer.png');
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   z-index: -1;
+  // }
+  //   .footer_img {
+  //     position: relative;
+  //   }
+  // }
+  // @media (min-device-pixel-ratio: 2) and (min-width: 320px),
+  //   (min-resolution: 192dpi) and (min-width: 320px),
+  //   (min-resolution: 2dppx) and (min-width: 320px) {
+  //   .footer_img::after {
+  //     background-image: url('.././images/body-images/bg-mobile-footer@2x.png');
+  //   }
+  // }
 
-@media screen and (min-width: 768px) {
-  .footer_img::after {
-    content: '';
-    position: absolute;
-    width: 147px;
-    height: 144px;
-    bottom: -21px;
-    right: -48px;
-    background-image: url('.././images/body-images/bg-tablet-footer.png');
-    background-repeat: no-repeat;
-    z-index: -1;
-    background-size: cover;
-  }
-  .footer_img {
-    position: relative;
-  }
+  // @media screen and (min-width: 768px) {
+  //   .footer_img::after {
+  //     content: '';
+  //     position: absolute;
+  //     width: 147px;
+  //     height: 144px;
+  //     bottom: -21px;
+  //     right: -48px;
+  //     background-image: url('.././images/body-images/bg-tablet-footer.png');
+  //     background-repeat: no-repeat;
+  //     z-index: -1;
+  //     background-size: cover;
+  //   }
+  // .footer_img {
+  //   position: relative;
+  // }
   .social__list {
     padding-bottom: 51px;
     padding-top: 37px;
   }
-}
-@media (min-device-pixel-ratio: 2) and (min-width: 768px),
-  (min-resolution: 192dpi) and (min-width: 768px),
-  (min-resolution: 2dppx) and (min-width: 768px) {
-  .footer_img::after {
-    background-image: url('.././images/body-images/bg-tablet-footer@2x.png');
-  }
-}
-@media screen and (min-width: 1280px) {
-  .footer_img::after {
-    content: '';
-    position: absolute;
-    width: 319px;
-    height: 184px;
-    bottom: -20px;
-    right: -210px;
-    background-image: url('.././images/body-images/bg-desktop-footer.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-  }
-  .footer_img {
-    position: relative;
-  }
+
+  // @media (min-device-pixel-ratio: 2) and (min-width: 768px),
+  //   (min-resolution: 192dpi) and (min-width: 768px),
+  //   (min-resolution: 2dppx) and (min-width: 768px) {
+  //   .footer_img::after {
+  //     background-image: url('.././images/body-images/bg-tablet-footer@2x.png');
+  //   }
+  // }
+  // @media screen and (min-width: 1280px) {
+  //   .footer_img::after {
+  //     content: '';
+  //     position: absolute;
+  //     width: 319px;
+  //     height: 184px;
+  //     bottom: -20px;
+  //     right: -210px;
+  //     background-image: url('.././images/body-images/bg-desktop-footer.png');
+  //     background-repeat: no-repeat;
+  //     background-size: cover;
+  //     z-index: -1;
+  //   }
+  //   .footer_img {
+  //     position: relative;
+  //   }
   .social__list {
     padding-top: 74px;
     padding-bottom: 35px;
   }
 }
-@media (min-device-pixel-ratio: 2) and (min-width: 1280px),
-  (min-resolution: 192dpi) and (min-width: 1280px),
-  (min-resolution: 2dppx) and (min-width: 1280px) {
-  .footer_img::after {
-    background-image: url('.././images/body-images/bg-desktop-footer@2x.png');
-  }
-}
+// @media (min-device-pixel-ratio: 2) and (min-width: 1280px),
+//   (min-resolution: 192dpi) and (min-width: 1280px),
+//   (min-resolution: 2dppx) and (min-width: 1280px) {
+//   .footer_img::after {
+//     background-image: url('.././images/body-images/bg-desktop-footer@2x.png');
+//   }
+// }
 .footer_main {
   padding-bottom: 20px;
 }
