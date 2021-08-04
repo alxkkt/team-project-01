@@ -2,7 +2,9 @@
 @media screen and (max-width: 767px) {
   .hero__container {
     padding-top: 85px;
+  }
 
+  .hero__section {
     background-image: url(../images/body-images/bg-mobile.png);
     background-repeat: no-repeat;
     background-size: auto;
@@ -12,7 +14,7 @@
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
   (min-resolution: 192dpi) and (max-width: 767px),
   (min-resolution: 2dppx) and (max-width: 767px) {
-  .hero__container {
+  .hero__section {
     background-image: url(../images/body-images/bg-mobile@2x.png);
     background-repeat: no-repeat;
     background-size: 120px auto;
