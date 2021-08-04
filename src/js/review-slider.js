@@ -17,6 +17,7 @@ $carouselEl.slick({
     draggable: false,
     autoplay: true,
     autoplaySpeed: 2000,
+    pauseOnFocus: true,
     speed: ANIMATION_TIMING,
     responsive: [
         {
@@ -29,6 +30,7 @@ $carouselEl.slick({
         }
     ]
 });
+
 
 $carouselEl.on('afterChange', renderCarouselRange);
 $carouselEl.on('beforeChange', (e, slick, currSlide, nextSlide) => {
