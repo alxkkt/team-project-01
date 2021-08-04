@@ -2,6 +2,7 @@
   .about {
     margin-top: 9px;
     margin-bottom: 25px;
+
     &__title {
       margin-left: auto;
       margin-right: auto;
@@ -18,6 +19,30 @@
     }
     &__paragraph-last {
       display: none;
+    }
+    &__img-div {
+      position: relative;
+      width: 290px;
+      height: 310px;
+    }
+    &__img-div::after {
+      content: '';
+      width: 290px;
+      height: 310px;
+      top: 0px;
+      left: 0px;
+      position: absolute;
+      z-index: 10;
+      background-image: url(../images/about-program/mobile/about-us.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    @media (min-device-pixel-ratio: 2) and (min-width: 1280px),
+      (min-resolution: 192dpi) and (min-width: 1280px),
+      (min-resolution: 2dppx) and (min-width: 1280px) {
+      &__img-div::after {
+        background-image: url(../images/about-program/mobile/about-us@2x.png);
+      }
     }
     &__button-more {
       font-size: 18px;
@@ -74,6 +99,29 @@
       background-color: inherit;
       padding: 0;
     }
+    &__img-div {
+      position: relative;
+    }
+    &__img-div::after {
+      content: '';
+      width: 330px;
+      height: 352px;
+      top: -10px;
+      left: -55px;
+      position: absolute;
+      z-index: 10;
+      background-image: url(../images/about-program/tablet/about-us.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x: 1px;
+    }
+    @media (min-device-pixel-ratio: 2) and (min-width: 1280px),
+      (min-resolution: 192dpi) and (min-width: 1280px),
+      (min-resolution: 2dppx) and (min-width: 1280px) {
+      &__img-div::after {
+        background-image: url(../images/about-program/tablet/about-us@2x.png);
+      }
+    }
   }
   .about__hide {
     display: block;
@@ -87,8 +135,8 @@
     flex-direction: row;
     margin-bottom: 40px;
     &__img-div {
-      margin-right: 85px;
-      min-width: 500px;
+      margin-right: 76px;
+      min-width: 392px;
     }
     &__title {
       font-size: 36px;
@@ -104,9 +152,34 @@
     }
     &__paragraph-last {
       margin-bottom: 15px;
+      font-size: 18px;
+      line-height: 1.22;
     }
     &__button-more {
       display: none;
+    }
+    &__img-div {
+      position: relative;
+    }
+    &__img-div::after {
+      content: '';
+      width: 512px;
+      height: 547px;
+      top: -95px;
+      left: -154px;
+      position: absolute;
+      z-index: 10;
+      background-image: url(../images/about-program/desktop/about-us.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x: 1px;
+    }
+    @media (min-device-pixel-ratio: 2) and (min-width: 1280px),
+      (min-resolution: 192dpi) and (min-width: 1280px),
+      (min-resolution: 2dppx) and (min-width: 1280px) {
+      &__img-div::after {
+        background-image: url(../images/about-program/desktop/about-us@2x.png);
+      }
     }
   }
 }
