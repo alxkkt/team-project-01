@@ -29,7 +29,6 @@
 
 .registration__title {
   text-align: center;
-  padding-top: 35px;
   padding-bottom: 35px;
 }
 
@@ -55,7 +54,7 @@
 
 @media screen and (max-width: 767px) {
   .registration {
-    margin-top: 30px;
+    padding-top: 30px;
   }
 
   .registration__rectangle {
@@ -104,8 +103,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .registration {
-    margin-top: 60px;
-
+    padding-top: 60px;
     padding-bottom: 62px;
     overflow: hidden;
   }
@@ -131,7 +129,6 @@
   }
 
   .registration__title {
-    padding-top: 35px;
     padding-bottom: 35px;
     margin-top: 0;
     margin-bottom: 0;
@@ -263,7 +260,7 @@
 
 @media screen and (min-width: 1280px) {
   .registration {
-    margin-top: 80px;
+    padding-top: 64px;
   }
 
   .registration__block {
@@ -311,7 +308,6 @@
   }
 
   .registration__title {
-    padding-top: 35px;
     padding-bottom: 35px;
     margin-top: 0;
     margin-bottom: 0;
