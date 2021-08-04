@@ -1,12 +1,26 @@
 // 0 - 767
 @media screen and (max-width: 767px) {
-  .hero__section {
+  .hero__container {
     padding-top: 35px;
+    background-image: url(../images/body-images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: auto;
   }
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+  (min-resolution: 192dpi) and (max-width: 767px),
+  (min-resolution: 2dppx) and (max-width: 767px) {
+  .hero__container {
+    background-image: url(../images/body-images/bg-mobile@2x.png);
+    background-repeat: no-repeat;
+    background-size: 120px auto;
+  }
+}
+
+// 768 - 1280x
 @media screen and (min-width: 768px) {
-  .hero__section {
+  .hero__container {
     padding-top: 81px;
   }
 }
