@@ -43,15 +43,41 @@
 }
 
 .card-item-title {
-    margin-bottom: 0;
+    @media screen and (min-width: 1280px) {
+        font-family: Montserrat;
     font-style: italic;
     font-weight: 500;
     font-size: 16px;
-    padding: 16px 0;
+    line-height: 65px;
     text-align: center;
+    margin: 0;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 65px;
+        margin: 0;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 767px) {
+        font-family: Montserrat;
+        color: #2E2520;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 65px;
+        text-align: center;
+    }
+
+
 }
 
 .reviews__item__text {
+    margin-top: 30px;
     margin-bottom: 0;
     font-family: Montserrat;
     font-weight: normal;
@@ -62,6 +88,10 @@
     display: none;
     font-style: normal;
     @media screen and (max-width: 767px) {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
         font-size: 18px;
         line-height: 1.25;
     }
@@ -118,6 +148,7 @@
     .reviews-card-image {
         @media screen and (min-width: 768px) {
             width: 185px;
+            margin-top: 15px;
         }
 
     }
@@ -148,11 +179,23 @@
         top:50%;                         
         right: 290px;  
     } 
+    @media screen and (max-width: 1279px) {
+        display: block;                  
+        width:100px;                    
+        content: '';                      
+        position: absolute;              
+        border-bottom: 1px solid var(--accent-color);   
+        top:50%;                         
+        right: 190px; 
+    }
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
  }
 
 .reviews-pagination::before{
 
-    @media screen and (min-width:1280px) {
+    @media screen and (min-width: 1280px) {
         display: block;                  
         width:100px;                    
         content: '';                      
@@ -160,6 +203,18 @@
         border-bottom: 1px solid var(--accent-color);   
         top:50%;                         
         left: 290px; 
+    }
+    @media screen and (max-width: 1279px) {
+        display: block;                  
+        width:100px;                    
+        content: '';                      
+        position: absolute;              
+        border-bottom: 1px solid var(--accent-color);   
+        top:50%;                         
+        left: 190px; 
+    }
+    @media screen and (max-width: 767px) {
+        display: none;
     }
   
 }
