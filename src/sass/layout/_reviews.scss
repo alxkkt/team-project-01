@@ -185,7 +185,13 @@
     right: 190px;
   }
   @media screen and (max-width: 767px) {
-    display: none;
+    display: block;
+    width: 50px;
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid var(--accent-color);
+    top: 50%;
+    right: 100px;
   }
 }
 
@@ -208,8 +214,15 @@
     top: 50%;
     left: 190px;
   }
+
   @media screen and (max-width: 767px) {
-    display: none;
+    display: block;
+    width: 50px;
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid var(--accent-color);
+    top: 50%;
+    left: 100px;
   }
 }
 
