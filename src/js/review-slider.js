@@ -15,7 +15,8 @@ $carouselEl.slick({
     slidesToShow: 3,
     focusOnSelect: true,
     draggable: false,
-    autoplay: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
     speed: ANIMATION_TIMING,
     responsive: [
         {
