@@ -3,31 +3,32 @@
     padding-bottom: 34px;
     padding-top: 37px;
   }
-  // .footer_img::after {
-  //   content: '';
-  //   position: absolute;
-  //   width: 87px;
-  //   height: 64px;
-  //   bottom: -20px;
-  //   right: 0;
-  //   background-image: url('.././images/body-images/bg-mobile-footer.png');
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  //   z-index: -1;
-  // }
-  //   .footer_img {
-  //     position: relative;
-  //   }
-  // }
-  // @media (min-device-pixel-ratio: 2) and (min-width: 320px),
-  //   (min-resolution: 192dpi) and (min-width: 320px),
-  //   (min-resolution: 2dppx) and (min-width: 320px) {
-  //   .footer_img::after {
-  //     background-image: url('.././images/body-images/bg-mobile-footer@2x.png');
-  //   }
-  // }
+}
+// .footer_img::after {
+//   content: '';
+//   position: absolute;
+//   width: 87px;
+//   height: 64px;
+//   bottom: -20px;
+//   right: 0;
+//   background-image: url('.././images/body-images/bg-mobile-footer.png');
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   z-index: -1;
+// }
+//   .footer_img {
+//     position: relative;
+//   }
+// }
+// @media (min-device-pixel-ratio: 2) and (min-width: 320px),
+//   (min-resolution: 192dpi) and (min-width: 320px),
+//   (min-resolution: 2dppx) and (min-width: 320px) {
+//   .footer_img::after {
+//     background-image: url('.././images/body-images/bg-mobile-footer@2x.png');
+//   }
+// }
 
-  // @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   //   .footer_img::after {
   //     content: '';
   //     position: absolute;
@@ -47,15 +48,15 @@
     padding-bottom: 51px;
     padding-top: 37px;
   }
-
-  // @media (min-device-pixel-ratio: 2) and (min-width: 768px),
-  //   (min-resolution: 192dpi) and (min-width: 768px),
-  //   (min-resolution: 2dppx) and (min-width: 768px) {
-  //   .footer_img::after {
-  //     background-image: url('.././images/body-images/bg-tablet-footer@2x.png');
-  //   }
-  // }
-  // @media screen and (min-width: 1280px) {
+}
+// @media (min-device-pixel-ratio: 2) and (min-width: 768px),
+//   (min-resolution: 192dpi) and (min-width: 768px),
+//   (min-resolution: 2dppx) and (min-width: 768px) {
+//   .footer_img::after {
+//     background-image: url('.././images/body-images/bg-tablet-footer@2x.png');
+//   }
+// }
+@media screen and (min-width: 1280px) {
   //   .footer_img::after {
   //     content: '';
   //     position: absolute;
