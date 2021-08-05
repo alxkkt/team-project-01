@@ -72,6 +72,7 @@
     line-height: 65px;
     text-align: center;
   }
+  
 }
 
 .reviews__item__text {
@@ -164,7 +165,12 @@
   @media screen and (min-width: 1280px) {
     font-size: 16px;
   }
+  @media screen and (max-width: 479px) {
+    width: 290px;
+    margin: 0 auto;
+  }
 }
+
 .reviews-pagination::after {
   @media screen and (min-width: 1280px) {
     display: block;
@@ -191,7 +197,7 @@
     position: absolute;
     border-bottom: 1px solid var(--accent-color);
     top: 50%;
-    right: 100px;
+    right: 70px;
   }
 }
 
@@ -222,7 +228,7 @@
     position: absolute;
     border-bottom: 1px solid var(--accent-color);
     top: 50%;
-    left: 100px;
+    left: 70px;
   }
 }
 
