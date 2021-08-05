@@ -8,6 +8,8 @@
 
   &__link {
     color: var(--main-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   &__link:hover,
